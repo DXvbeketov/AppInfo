@@ -5,3 +5,10 @@ C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\ProjectTest\AppInf
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\ProjectTest\AppInfo\obj\Debug\AppInfo_x64.csproj.CoreCompileInputs.cache
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\ProjectTest\AppInfo\obj\Debug\AppInfo.exe
 C:\Users\Дмитрий\Documents\Visual Studio 2017\Projects\ProjectTest\AppInfo\obj\Debug\AppInfo.pdb
+C:\Users\Дмитрий\Desktop\new-feature\AppInfo\bin\Debug\AppInfo.exe.config
+C:\Users\Дмитрий\Desktop\new-feature\AppInfo\bin\Debug\AppInfo.exe
+C:\Users\Дмитрий\Desktop\new-feature\AppInfo\bin\Debug\AppInfo.pdb
+C:\Users\Дмитрий\Desktop\new-feature\AppInfo\obj\Debug\AppInfo_x64.csprojAssemblyReference.cache
+C:\Users\Дмитрий\Desktop\new-feature\AppInfo\obj\Debug\AppInfo_x64.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\new-feature\AppInfo\obj\Debug\AppInfo.exe
+C:\Users\Дмитрий\Desktop\new-feature\AppInfo\obj\Debug\AppInfo.pdb
