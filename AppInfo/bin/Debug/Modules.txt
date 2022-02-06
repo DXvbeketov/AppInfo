@@ -1,0 +1,127 @@
+
+Процесс Ascon.Pilot.MyAdmin стартовал 28.09.2021 19:46:39
+Максимальный объем потребляемой памяти в момент времени: 122 Мбайт
+Использует следующие ресурсы(модули):
+
+№  Модуль                           Путь
+1 Ascon.Pilot.MyAdmin.exe  C:\Program Files\ASCON\Pilot-myAdmin\Ascon.Pilot.MyAdmin.exePilot-myAdmin
+2 ntdll.dll                C:\Windows\SYSTEM32\ntdll.dll                Системная библиотека NT
+3 MSCOREE.DLL              C:\Windows\SYSTEM32\MSCOREE.DLL              Microsoft .NET Runtime Execution Engine
+4 KERNEL32.dll             C:\Windows\system32\KERNEL32.dll             Библиотека клиента Windows NT BASE API
+5 KERNELBASE.dll           C:\Windows\system32\KERNELBASE.dll           Библиотека клиента Windows NT BASE API
+6 ADVAPI32.dll             C:\Windows\system32\ADVAPI32.dll             Расширенная библиотека API Windows 32
+7 msvcrt.dll               C:\Windows\system32\msvcrt.dll               Windows NT CRT DLL
+8 sechost.dll              C:\Windows\SYSTEM32\sechost.dll              Host for SCM/SDDL/LSA Lookup APIs
+9 RPCRT4.dll               C:\Windows\system32\RPCRT4.dll               Библиотека удаленного вызова процедур
+10 SspiCli.dll             C:\Windows\system32\SspiCli.dll              Security Support Provider Interface
+11 mscoreei.dll            C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dllMicrosoft .NET Runtime Execution Engine
+12 SHLWAPI.dll             C:\Windows\system32\SHLWAPI.dll              Библиотека небольших программ оболочки
+13 combase.dll             C:\Windows\SYSTEM32\combase.dll              Microsoft COM для Windows
+14 USER32.dll              C:\Windows\system32\USER32.dll               Многопользовательская библиотека клиента USER API Windows
+15 GDI32.dll               C:\Windows\system32\GDI32.dll                GDI Client DLL
+16 IMM32.DLL               C:\Windows\system32\IMM32.DLL                Multi-User Windows IMM32 API Client DLL
+17 MSCTF.dll               C:\Windows\system32\MSCTF.dll                Серверная библиотека MSCTF
+18 kernel.appcore.dll      C:\Windows\SYSTEM32\kernel.appcore.dll       AppModel API Host
+19 VERSION.dll             C:\Windows\SYSTEM32\VERSION.dll              Version Checking and File Installation Libraries
+20 clr.dll                 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dllMicrosoft .NET Runtime Common Language Runtime - WorkStation
+21 MSVCR120_CLR0400.dll    C:\Windows\SYSTEM32\MSVCR120_CLR0400.dll     Microsoft® C Runtime Library
+22 mscorlib.ni.dll         C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\b308b9c61f65cf2dfd876031ee385ba4\mscorlib.ni.dllMicrosoft Common Language Runtime Class Library
+23 ole32.dll               C:\Windows\system32\ole32.dll                Microsoft OLE для Windows
+24 CRYPTBASE.dll           C:\Windows\SYSTEM32\CRYPTBASE.dll            Base cryptographic API DLL
+25 bcryptPrimitives.dll    C:\Windows\SYSTEM32\bcryptPrimitives.dll     Windows Cryptographic Primitives Library
+26 uxtheme.dll             C:\Windows\system32\uxtheme.dll              Библиотека тем UxTheme (Microsoft)
+27 clrjit.dll              C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dllMicrosoft .NET Runtime Just-In-Time Compiler
+28 CRYPTSP.dll             C:\Windows\SYSTEM32\CRYPTSP.dll              Cryptographic Service Provider API
+29 rsaenh.dll              C:\Windows\system32\rsaenh.dll               Microsoft Enhanced Cryptographic Provider
+30 bcrypt.dll              C:\Windows\SYSTEM32\bcrypt.dll               Библиотека криптографических примитивов Windows
+31 System.ni.dll           C:\Windows\assembly\NativeImages_v4.0.30319_64\System\095a3392942c3d4eb888e6a32036acd8\System.ni.dll.NET Framework
+32 System.Core.ni.dll      C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Core\75913bbaf1bee617a94dcd6b5df12a5d\System.Core.ni.dll.NET Framework
+33 log4net.ni.dll          C:\Windows\assembly\NativeImages_v4.0.30319_64\log4net\8d639a28b0744f13028022ed617d4cfb\log4net.ni.dllApache log4net for .NET Framework 4.5
+34 System.Configuration.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\System.Configuration\36778d2072c745f0ad72f7e219122258\System.Configuration.ni.dllSystem.Configuration.dll
+35 System.Xml.ni.dll       C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Xml\8821b72d5d51079acf96e90c4af19a96\System.Xml.ni.dll.NET Framework
+36 shell32.dll             C:\Windows\system32\shell32.dll              Общая библиотека оболочки Windows
+37 SHCORE.dll              C:\Windows\SYSTEM32\SHCORE.dll               SHCORE
+38 profapi.dll             C:\Windows\SYSTEM32\profapi.dll              User Profile Basic API
+39 Ascon.Pilot.Theme.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\Ascon.Pilot.Theme\d1ce86651d14808427e691b8d15ea6a9\Ascon.Pilot.Theme.ni.dllPilot Theme
+40 WindowsBase.ni.dll      C:\Windows\assembly\NativeImages_v4.0.30319_64\WindowsBase\6110ecf056356557d5798a1583a1c434\WindowsBase.ni.dllWindowsBase.dll
+41 PresentationCore.ni.dll C:\Windows\assembly\NativeImages_v4.0.30319_64\PresentationCore\ceff7eae18ed09ff1116ebf9af497790\PresentationCore.ni.dllPresentationCore.dll
+42 PresentationFramework.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\Presentatio5ae0f00f#\3d01d2b7bde19d91d70c4ff96eea3432\PresentationFramework.ni.dllPresentationFramework.dll
+43 System.Xaml.ni.dll      C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Xaml\76a6a6b0f7fb1fbd64a800b5fc3d47bb\System.Xaml.ni.dllSystem.Xaml.dll
+44 Ascon.Pilot.Updater.Interface.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\Ascon.Pilote21c0a93#\ec9dc2a346eef4398c0ca8c5a095c232\Ascon.Pilot.Updater.Interface.ni.dllPilot Updater Interface
+45 dwrite.dll              C:\Windows\SYSTEM32\dwrite.dll               Службы Microsoft DirectX Typography
+46 wpfgfx_v0400.dll        C:\Windows\Microsoft.NET\Framework64\v4.0.30319\WPF\wpfgfx_v0400.dllwpfgfx_v0400.dll
+47 MSVCP120_CLR0400.dll    C:\Windows\SYSTEM32\MSVCP120_CLR0400.dll     Microsoft® C Runtime Library
+48 OLEAUT32.dll            C:\Windows\system32\OLEAUT32.dll             
+49 PresentationNative_v0400.dllC:\Windows\Microsoft.NET\Framework64\v4.0.30319\WPF\PresentationNative_v0400.dllPresentationNative_v0400.dll
+50 netstandard.ni.dll      C:\Windows\assembly\NativeImages_v4.0.30319_64\netstandard\920cc08346443cbea416e3462b06e860\netstandard.ni.dllnetstandard
+51 psapi.dll               C:\Windows\system32\psapi.dll                Process Status Helper
+52 secur32.dll             C:\Windows\SYSTEM32\secur32.dll              Security Support Provider Interface
+53 iphlpapi.dll            C:\Windows\SYSTEM32\iphlpapi.dll             API вспомогательного приложения IP
+54 NSI.dll                 C:\Windows\system32\NSI.dll                  NSI User-mode interface DLL
+55 WINNSI.DLL              C:\Windows\SYSTEM32\WINNSI.DLL               Network Store Information RPC interface
+56 DNSAPI.dll              C:\Windows\SYSTEM32\DNSAPI.dll               Динамическая библиотека API DNS-клиента
+57 WS2_32.dll              C:\Windows\system32\WS2_32.dll               32-разрядная библиотека Windows Socket 2.0
+58 dhcpcsvc6.DLL           C:\Windows\SYSTEM32\dhcpcsvc6.DLL            Клиент DHCPv6
+59 dhcpcsvc.DLL            C:\Windows\SYSTEM32\dhcpcsvc.DLL             Служба DHCP-клиента
+60 PrxerDrv.dll            C:\Windows\system32\PrxerDrv.dll             Proxifier Winsock Layered Service Provider x64
+61 mswsock.dll             C:\Windows\system32\mswsock.dll              Расширение поставщика службы API Microsoft Windows Sockets 2.0
+62 Ascon.Pilot.Controls.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\Ascon.Pilot.Controls\2d9307391c28919f17ec8601da4189ff\Ascon.Pilot.Controls.ni.dllPilot Controls
+63 dwmapi.dll              C:\Windows\system32\dwmapi.dll               Интерфейс API диспетчера окон рабочего стола (Майкрософт)
+64 System.Drawing.ni.dll   C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Drawing\dcbadb02f6000b436f1cb0fb736df3ee\System.Drawing.ni.dll.NET Framework
+65 System.Security.Cryptography.ProtectedData.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\System.Secuf6e8dc94#\fdab1381d29fa07dcee152db80cc4813\System.Security.Cryptography.ProtectedData.ni.dllSystem.Security.Cryptography.ProtectedData
+66 System.Security.ni.dll  C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Security\cccf0195b8a7b2804875769b64f41f8a\System.Security.ni.dllSystem.Security.dll
+67 crypt32.dll             C:\Windows\system32\crypt32.dll              API32 криптографии
+68 MSASN1.dll              C:\Windows\system32\MSASN1.dll               ASN.1 Runtime APIs
+69 DPAPI.dll               C:\Windows\SYSTEM32\DPAPI.dll                Data Protection API
+70 PresentationFramework.Aero2.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\Presentatioaec034ca#\2eac0d1ade4cdde3eeee9c6d25f867c9\PresentationFramework.Aero2.ni.dllPresentationFramework.Aero2.dll
+71 Ascon.Pilot.UpdateManager.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\Ascon.Pilotb2294659#\9f38c4f3c4f043669da5ed4a3579b86d\Ascon.Pilot.UpdateManager.ni.dllPilot Update Manager
+72 Ascon.Pilot.LicenseCoreShared.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\Ascon.Pilot39dfd912#\ff6dd77ec37b7c3caebc913649eefc2f\Ascon.Pilot.LicenseCoreShared.ni.dllAscon.Pilot.LicenseCoreShared
+73 WindowsCodecs.dll       C:\Windows\SYSTEM32\WindowsCodecs.dll        Microsoft Windows Codecs Library
+74 urlmon.dll              C:\Windows\SYSTEM32\urlmon.dll               Расширения OLE32 для Win32
+75 iertutil.dll            C:\Windows\SYSTEM32\iertutil.dll             Служебная программа времени выполнения для Internet Explorer
+76 WININET.dll             C:\Windows\SYSTEM32\WININET.dll              Расширения Интернета для Win32
+77 USERENV.dll             C:\Windows\SYSTEM32\USERENV.dll              Userenv
+78 d3d9.dll                C:\Windows\SYSTEM32\d3d9.dll                 Direct3D 9 Runtime
+79 nvspcap64.dll           C:\Windows\system32\nvspcap64.dll            NVIDIA Game Proxy
+80 ntmarta.dll             C:\Windows\SYSTEM32\ntmarta.dll              Поставщик Windows NT MARTA
+81 Ascon.Pilot.Server.Api.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\Ascon.Pilotfea92e68#\188c73783ca2638d14b816fd970e871f\Ascon.Pilot.Server.Api.ni.dllAscon Pilot Server API
+82 Ascon.Pilot.DataClasses.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\Ascon.Pilota8c9cdf3#\086a7b8b261319fc9fd25cbe92eebcb8\Ascon.Pilot.DataClasses.ni.dllData transfer objects for Pilot
+83 System.Reflection.DispatchProxy.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\System.Refl1753079b#\c90a1557b2ed681a0c1813548f557169\System.Reflection.DispatchProxy.ni.dllSystem.Reflection.DispatchProxy
+84 clbcatq.dll             C:\Windows\SYSTEM32\clbcatq.dll              COM+ Configuration Catalog
+85 wtsapi32.dll            C:\Windows\SYSTEM32\wtsapi32.dll             Windows Remote Desktop Session Host Server SDK APIs
+86 WINSTA.dll              C:\Windows\SYSTEM32\WINSTA.dll               Winstation Library
+87 powrprof.dll            C:\Windows\SYSTEM32\powrprof.dll             DLL модуля поддержки профиля управления питанием
+88 nvd3dumx.dll            C:\Windows\SYSTEM32\nvd3dumx.dll             NVIDIA WDDM D3D Driver, Version 352.86 
+89 rasapi32.dll            C:\Windows\SYSTEM32\rasapi32.dll             API удаленного доступа
+90 rasman.dll              C:\Windows\SYSTEM32\rasman.dll               Remote Access Connection Manager
+91 rtutils.dll             C:\Windows\SYSTEM32\rtutils.dll              Routing Utilities
+92 nvSCPAPI64.dll          C:\Program Files (x86)\NVIDIA Corporation\3D Vision\nvSCPAPI64.dllNVIDIA 3D Vision Control Panel 64bit API
+93 SETUPAPI.dll            C:\Windows\system32\SETUPAPI.dll             Windows Setup API
+94 CFGMGR32.dll            C:\Windows\system32\CFGMGR32.dll             Configuration Manager DLL
+95 winhttp.dll             C:\Windows\SYSTEM32\winhttp.dll              Службы HTTP Windows
+96 PrxerNsp.dll            C:\Windows\system32\PrxerNsp.dll             Proxifier Namespace Service Provider x64
+97 rasadhlp.dll            C:\Windows\System32\rasadhlp.dll             Remote Access AutoDial Helper
+98 fwpuclnt.dll            C:\Windows\System32\fwpuclnt.dll             API пользовательского режима FWP/IPsec
+99 protobuf-net.ni.dll     C:\Windows\assembly\NativeImages_v4.0.30319_64\protobuf-net\7f3cc9ff0e061c474f6edbe9041be118\protobuf-net.ni.dllprotobuf-net
+100 NSspi.ni.dll           C:\Windows\assembly\NativeImages_v4.0.30319_64\NSspi\0d1993292e369ff2f181794d1f64aead\NSspi.ni.dllNSspi
+101 System.Windows.Forms.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\System.Windows.Forms\cb8c46fb93cee393acd4db95f6d8bfa2\System.Windows.Forms.ni.dll.NET Framework
+102 msctfui.dll            C:\Windows\system32\msctfui.dll              Серверная библиотека MSCTFUI
+103 UIAutomationTypes.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\UIAutomationTypes\91def75d3d91a7f7c698cd5c736ca52f\UIAutomationTypes.ni.dllUIAutomationTypes.dll
+104 UIAutomationCore.dll   C:\Windows\SYSTEM32\UIAutomationCore.dll     Основные автоматические компоненты Microsoft UI
+105 WINMM.dll              C:\Windows\SYSTEM32\WINMM.dll                MCI API DLL
+106 WINMMBASE.dll          C:\Windows\SYSTEM32\WINMMBASE.dll            Base Multimedia Extension API DLL
+107 DEVOBJ.dll             C:\Windows\SYSTEM32\DEVOBJ.dll               Device Information Set DLL
+108 D3DCOMPILER_47.dll     C:\Windows\SYSTEM32\D3DCOMPILER_47.dll       Direct3D HLSL Compiler
+109 System.Windows.Interactivity.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\System.Windc7c43db6#\bdf125b23f97d77ca73594184219322f\System.Windows.Interactivity.ni.dllSystem.Windows.Interactivity
+110 schannel.DLL           C:\Windows\system32\schannel.DLL             Поставщик безопасности TLS/SSL
+111 ncrypt.dll             C:\Windows\SYSTEM32\ncrypt.dll               Маршрутизатор Windows NCrypt
+112 NTASN1.dll             C:\Windows\SYSTEM32\NTASN1.dll               Microsoft ASN.1 API
+113 ncryptsslp.dll         C:\Windows\system32\ncryptsslp.dll           Microsoft SChannel Provider
+114 gpapi.dll              C:\Windows\SYSTEM32\gpapi.dll                Клиентские функции API групповой политики
+115 SharpVectors.Converters.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\SharpVector5d430a6a#\17fb0954df4e4c16801a2d3f43d71e85\SharpVectors.Converters.ni.dllSharpVectorsConverters
+116 SharpVectors.Rendering.Wpf.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\SharpVector3d641f1c#\ba9f4a57a0524faf256c826d868405c4\SharpVectors.Rendering.Wpf.ni.dllSharpVectorRenderingWpf
+117 SharpVectors.Core.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\SharpVectors.Core\db5a0d1ced6650303eed58d32105277a\SharpVectors.Core.ni.dllSVG 1.1 Interface Bindings
+118 SharpVectors.Model.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\SharpVectors.Model\7a2cdb2a42e823c72a7176773733d70a\SharpVectors.Model.ni.dllSVG 1.1 SVG Object Model Implementation
+119 SharpVectors.Css.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\SharpVectors.Css\fe4a31d54f3fa1b8bb596898474df3c9\SharpVectors.Css.ni.dllSVG 1.1 CSS Implementation
+120 SharpVectors.Dom.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\SharpVectors.Dom\af91e8b4d4b05a438f0c5d851c2e1874\SharpVectors.Dom.ni.dllSVG 1.1 DOM Implementation
+121 SharpVectors.Runtime.ni.dllC:\Windows\assembly\NativeImages_v4.0.30319_64\SharpVectors.Runtime\988fb97b752e4f6d26837420454aa032\SharpVectors.Runtime.ni.dllSharpVectors.Runtime
