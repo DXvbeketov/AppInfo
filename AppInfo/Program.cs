@@ -15,7 +15,9 @@ namespace AppInfo_x64
     {      
         static void Main(string[] args)
         {
-            Console.WindowWidth = 120;
+            
+            Console.WindowWidth = 160;
+            Console.WriteLine(Console.BufferWidth);
             Console.WriteLine("\t****** Добро пожаловать в приложение AppInfo_х64! ******\n");
             Console.WriteLine("Приложение AppInfo отображает различные данные о интересующем x64 процессе");
             do
