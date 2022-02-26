@@ -1,35 +1,104 @@
 
-Процесс bash стартовал 06.02.2022 16:28:17
-Максимальный объем потребляемой памяти в момент времени: 9 Мбайт
+Процесс browser стартовал 26.02.2022 15:31:12
+Максимальный объем потребляемой памяти в момент времени: 218 Мбайт
 Использует следующие ресурсы(модули):
 
-№  Модуль                           Путь
-1 bash.exe                 A:\Soft\Git\usr\bin\bash.exe                 
-2 ntdll.dll                C:\Windows\SYSTEM32\ntdll.dll                Системная библиотека NT
-3 KERNEL32.DLL             C:\Windows\system32\KERNEL32.DLL             Библиотека клиента Windows NT BASE API
-4 KERNELBASE.dll           C:\Windows\system32\KERNELBASE.dll           Библиотека клиента Windows NT BASE API
-5 msys-2.0.dll             A:\Soft\Git\usr\bin\msys-2.0.dll             Cygwin POSIX Emulation DLL
-6 USER32.dll               C:\Windows\system32\USER32.dll               Многопользовательская библиотека клиента USER API Windows
-7 GDI32.dll                C:\Windows\system32\GDI32.dll                GDI Client DLL
-8 advapi32.dll             C:\Windows\system32\advapi32.dll             Расширенная библиотека API Windows 32
-9 msvcrt.dll               C:\Windows\system32\msvcrt.dll               Windows NT CRT DLL
-10 sechost.dll             C:\Windows\SYSTEM32\sechost.dll              Host for SCM/SDDL/LSA Lookup APIs
-11 RPCRT4.dll              C:\Windows\system32\RPCRT4.dll               Библиотека удаленного вызова процедур
-12 SspiCli.dll             C:\Windows\system32\SspiCli.dll              Security Support Provider Interface
-13 CRYPTBASE.DLL           C:\Windows\SYSTEM32\CRYPTBASE.DLL            Base cryptographic API DLL
-14 bcryptPrimitives.dll    C:\Windows\SYSTEM32\bcryptPrimitives.dll     Windows Cryptographic Primitives Library
-15 IMM32.DLL               C:\Windows\system32\IMM32.DLL                Multi-User Windows IMM32 API Client DLL
-16 MSCTF.dll               C:\Windows\system32\MSCTF.dll                Серверная библиотека MSCTF
-17 netapi32.dll            C:\Windows\system32\netapi32.dll             Net Win32 API DLL
-18 netutils.dll            C:\Windows\SYSTEM32\netutils.dll             Net Win32 API Helpers DLL
-19 srvcli.dll              C:\Windows\SYSTEM32\srvcli.dll               Server Service Client DLL
-20 wkscli.dll              C:\Windows\SYSTEM32\wkscli.dll               Workstation Service Client DLL
-21 SAMCLI.DLL              C:\Windows\SYSTEM32\SAMCLI.DLL               Security Accounts Manager Client DLL
-22 SAMLIB.dll              C:\Windows\SYSTEM32\SAMLIB.dll               SAM Library DLL
-23 iphlpapi.dll            C:\Windows\system32\iphlpapi.dll             API вспомогательного приложения IP
-24 NSI.dll                 C:\Windows\system32\NSI.dll                  NSI User-mode interface DLL
-25 WINNSI.DLL              C:\Windows\SYSTEM32\WINNSI.DLL               Network Store Information RPC interface
-26 DNSAPI.dll              C:\Windows\SYSTEM32\DNSAPI.dll               Динамическая библиотека API DNS-клиента
-27 WS2_32.dll              C:\Windows\system32\WS2_32.dll               32-разрядная библиотека Windows Socket 2.0
-28 dhcpcsvc6.DLL           C:\Windows\SYSTEM32\dhcpcsvc6.DLL            Клиент DHCPv6
-29 dhcpcsvc.DLL            C:\Windows\SYSTEM32\dhcpcsvc.DLL             Служба DHCP-клиента
+№  Модуль                  Путь                                         Описание                                     Память KB
+1  browser.dll             C:\Users\Дмитрий\AppData\Local\Yandex\YandexBrowser\Application\22.1.4.837\browser.dllYandex with voice assistant Alice            188684
+2  SHELL32.dll             C:\Windows\system32\SHELL32.dll              Общая библиотека оболочки Windows            21672
+3  browser.exe             C:\Users\Дмитрий\AppData\Local\Yandex\YandexBrowser\Application\browser.exeYandex with voice assistant Alice            4596
+4  Wpc.dll                 C:\Windows\System32\Wpc.dll                  Библиотека параметров родительского контроля 3204
+5  explorerframe.dll       C:\Windows\system32\explorerframe.dll        ExplorerFrame                                3064
+6  actxprxy.dll            C:\Windows\System32\actxprxy.dll             ActiveX Interface Marshaling Library         2828
+7  COMCTL32.dll            C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.18006_none_623f33d3ecbe86e8\COMCTL32.dllБиблиотека общих элементов управления        2540
+8  combase.dll             C:\Windows\SYSTEM32\combase.dll              Microsoft COM для Windows                    2116
+9  DWrite.dll              C:\Windows\SYSTEM32\DWrite.dll               Службы Microsoft DirectX Typography          1968
+10  CRYPT32.dll            C:\Windows\system32\CRYPT32.dll              API32 криптографии                           1916
+11  SETUPAPI.dll           C:\Windows\system32\SETUPAPI.dll             Windows Setup API                            1896
+12  DUI70.dll              C:\Windows\system32\DUI70.dll                Подсистема DirectUI Windows                  1796
+13  ntdll.dll              C:\Windows\SYSTEM32\ntdll.dll                Системная библиотека NT                      1716
+14  ole32.dll              C:\Windows\system32\ole32.dll                Microsoft OLE для Windows                    1616
+15  dbghelp.dll            C:\Windows\SYSTEM32\dbghelp.dll              Windows Image Helper                         1572
+16  PROPSYS.dll            C:\Windows\SYSTEM32\PROPSYS.dll              Система страниц свойств (Майкрософт)         1532
+17  USER32.dll             C:\Windows\system32\USER32.dll               Многопользовательская библиотека клиента USER API Windows1500
+18  MSCTF.dll              C:\Windows\system32\MSCTF.dll                Серверная библиотека MSCTF                   1352
+19  GDI32.dll              C:\Windows\system32\GDI32.dll                GDI Client DLL                               1340
+20  browser_elf.dll        C:\Users\Дмитрий\AppData\Local\Yandex\YandexBrowser\Application\22.1.4.837\browser_elf.dllYandex with voice assistant Alice            1328
+21  RPCRT4.dll             C:\Windows\system32\RPCRT4.dll               Библиотека удаленного вызова процедур        1280
+22  KERNEL32.DLL           C:\Windows\system32\KERNEL32.DLL             Библиотека клиента Windows NT BASE API       1272
+23  UIAutomationCore.DLL   C:\Windows\SYSTEM32\UIAutomationCore.DLL     Основные автоматические компоненты Microsoft UI1236
+24  uxtheme.dll            C:\Windows\system32\uxtheme.dll              Библиотека тем UxTheme (Microsoft)           1188
+25  KERNELBASE.dll         C:\Windows\system32\KERNELBASE.dll           Библиотека клиента Windows NT BASE API       1108
+26  fastprox.dll           C:\Windows\system32\wbem\fastprox.dll        WMI Custom Marshaller                        1004
+27  MsSpellCheckingFacility.dllC:\Windows\System32\MsSpellCheckingFacility.dllСредство проверки орфографии (Майкрософт)    1000
+28  WINHTTP.dll            C:\Windows\SYSTEM32\WINHTTP.dll              Службы HTTP Windows                          804
+29  OLEAUT32.dll           C:\Windows\system32\OLEAUT32.dll                                                          772
+30  ntshrui.dll            C:\Windows\SYSTEM32\ntshrui.dll              Расширения оболочки, обеспечивающие общий доступ744
+31  clbcatq.dll            C:\Windows\SYSTEM32\clbcatq.dll              COM+ Configuration Catalog                   728
+32  SHCORE.dll             C:\Windows\SYSTEM32\SHCORE.dll               SHCORE                                       712
+33  msvcrt.dll             C:\Windows\system32\msvcrt.dll               Windows NT CRT DLL                           680
+34  ADVAPI32.dll           C:\Windows\system32\ADVAPI32.dll             Расширенная библиотека API Windows 32        680
+35  DUser.dll              C:\Windows\system32\DUser.dll                Windows DirectUser Engine                    656
+36  mscms.dll              C:\Windows\SYSTEM32\mscms.dll                DLL-библиотека системы сопоставления цветов Майкрософт584
+37  WINSPOOL.DRV           C:\Windows\SYSTEM32\WINSPOOL.DRV             Драйвер диспетчера очереди Windows           520
+38  wbemcomn.dll           C:\Windows\SYSTEM32\wbemcomn.dll             WMI                                          520
+39  MMDevApi.dll           C:\Windows\System32\MMDevApi.dll             MMDevice API                                 448
+40  wevtapi.dll            C:\Windows\System32\wevtapi.dll              API настройки и использования событий        424
+41  OLEACC.dll             C:\Windows\SYSTEM32\OLEACC.dll               Active Accessibility Core Component          424
+42  Bcp47Langs.dll         C:\Windows\System32\Bcp47Langs.dll           BCP47 Language Classes                       408
+43  bcryptPrimitives.dll   C:\Windows\SYSTEM32\bcryptPrimitives.dll     Windows Cryptographic Primitives Library     396
+44  WLDAP32.dll            C:\Windows\system32\WLDAP32.dll              Win32 LDAP API DLL                           368
+45  WS2_32.dll             C:\Windows\system32\WS2_32.dll               32-разрядная библиотека Windows Socket 2.0   360
+46  WINSTA.dll             C:\Windows\SYSTEM32\WINSTA.dll               Winstation Library                           360
+47  sechost.dll            C:\Windows\SYSTEM32\sechost.dll              Host for SCM/SDDL/LSA Lookup APIs            356
+48  SHLWAPI.dll            C:\Windows\system32\SHLWAPI.dll              Библиотека небольших программ оболочки       336
+49  WINTRUST.dll           C:\Windows\system32\WINTRUST.dll             Microsoft Trust Verification APIs            324
+50  cfgmgr32.dll           C:\Windows\SYSTEM32\cfgmgr32.dll             Configuration Manager DLL                    316
+51  wlanapi.dll            C:\Windows\SYSTEM32\wlanapi.dll              Windows WLAN AutoConfig Client Side API DLL  312
+52  powrprof.dll           C:\Windows\SYSTEM32\powrprof.dll             DLL модуля поддержки профиля управления питанием280
+53  icm32.dll              C:\Windows\SYSTEM32\icm32.dll                Microsoft Color Management Module (CMM)      260
+54  bthprops.cpl           C:\Windows\SYSTEM32\bthprops.cpl             Приложение панели управления Bluetooth       236
+55  cryptnet.dll           C:\Windows\System32\cryptnet.dll             Crypto Network Related API                   228
+56  NTASN1.dll             C:\Windows\system32\NTASN1.dll               Microsoft ASN.1 API                          220
+57  IMM32.DLL              C:\Windows\system32\IMM32.DLL                Multi-User Windows IMM32 API Client DLL      216
+58  rsaenh.dll             C:\Windows\system32\rsaenh.dll               Microsoft Enhanced Cryptographic Provider    216
+59  ntmarta.dll            C:\Windows\system32\ntmarta.dll              Поставщик Windows NT MARTA                   200
+60  SspiCli.dll            C:\Windows\system32\SspiCli.dll              Security Support Provider Interface          184
+61  IPHLPAPI.DLL           C:\Windows\SYSTEM32\IPHLPAPI.DLL             API вспомогательного приложения IP           168
+62  WINMMBASE.dll          C:\Windows\SYSTEM32\WINMMBASE.dll            Base Multimedia Extension API DLL            168
+63  DEVOBJ.dll             C:\Windows\SYSTEM32\DEVOBJ.dll               Device Information Set DLL                   160
+64  srvcli.dll             C:\Windows\System32\srvcli.dll               Server Service Client DLL                    152
+65  bcrypt.dll             C:\Windows\SYSTEM32\bcrypt.dll               Библиотека криптографических примитивов Windows152
+66  ncrypt.dll             C:\Windows\system32\ncrypt.dll               Маршрутизатор Windows NCrypt                 148
+67  gpapi.dll              C:\Windows\SYSTEM32\gpapi.dll                Клиентские функции API групповой политики    144
+68  WINMM.dll              C:\Windows\SYSTEM32\WINMM.dll                MCI API DLL                                  136
+69  USERENV.dll            C:\Windows\SYSTEM32\USERENV.dll              Userenv                                      132
+70  dwmapi.dll             C:\Windows\system32\dwmapi.dll               Интерфейс API диспетчера окон рабочего стола (Майкрософт)132
+71  CRYPTSP.dll            C:\Windows\SYSTEM32\CRYPTSP.dll              Cryptographic Service Provider API           128
+72  BluetoothApis.dll      C:\Windows\SYSTEM32\BluetoothApis.dll        Bluetooth Usermode Api host                  128
+73  NLAapi.dll             C:\Windows\system32\NLAapi.dll               Network Location Awareness 2                 108
+74  dhcpcsvc.DLL           C:\Windows\SYSTEM32\dhcpcsvc.DLL             Служба DHCP-клиента                          104
+75  wkscli.dll             C:\Windows\SYSTEM32\wkscli.dll               Workstation Service Client DLL               92
+76  SAMCLI.DLL             C:\Windows\System32\SAMCLI.DLL               Security Accounts Manager Client DLL         92
+77  dhcpcsvc6.DLL          C:\Windows\SYSTEM32\dhcpcsvc6.DLL            Клиент DHCPv6                                88
+78  NETAPI32.dll           C:\Windows\System32\NETAPI32.dll             Net Win32 API DLL                            88
+79  profapi.dll            C:\Windows\SYSTEM32\profapi.dll              User Profile Basic API                       84
+80  wbemsvc.dll            C:\Windows\system32\wbem\wbemsvc.dll         WMI                                          84
+81  sfc_os.DLL             C:\Windows\SYSTEM32\sfc_os.DLL               Windows File Protection                      72
+82  WTSAPI32.dll           C:\Windows\SYSTEM32\WTSAPI32.dll             Windows Remote Desktop Session Host Server SDK APIs72
+83  qmgrprxy.dll           C:\Windows\System32\qmgrprxy.dll             Background Intelligent Transfer Service Proxy72
+84  cscapi.dll             C:\Windows\SYSTEM32\cscapi.dll               Offline Files Win32 API                      72
+85  MSASN1.dll             C:\Windows\system32\MSASN1.dll               ASN.1 Runtime APIs                           68
+86  wbemprox.dll           C:\Windows\system32\wbem\wbemprox.dll        WMI                                          68
+87  atlthunk.dll           C:\Windows\SYSTEM32\atlthunk.dll             atlthunk.dll                                 60
+88  LINKINFO.dll           C:\Windows\SYSTEM32\LINKINFO.dll             Windows Volume Tracking                      52
+89  Secur32.dll            C:\Windows\SYSTEM32\Secur32.dll              Security Support Provider Interface          48
+90  netutils.dll           C:\Windows\SYSTEM32\netutils.dll             Net Win32 API Helpers DLL                    48
+91  CRYPTBASE.DLL          C:\Windows\SYSTEM32\CRYPTBASE.DLL            Base cryptographic API DLL                   44
+92  kernel.appcore.dll     C:\Windows\SYSTEM32\kernel.appcore.dll       AppModel API Host                            44
+93  VERSION.dll            C:\Windows\SYSTEM32\VERSION.dll              Version Checking and File Installation Libraries40
+94  WINNSI.DLL             C:\Windows\SYSTEM32\WINNSI.DLL               Network Store Information RPC interface      40
+95  DPAPI.dll              C:\Windows\system32\DPAPI.dll                Data Protection API                          40
+96  NSI.dll                C:\Windows\system32\NSI.dll                  NSI User-mode interface DLL                  36
+97  Normaliz.dll           C:\Windows\system32\Normaliz.dll             Unicode Normalization DLL                    20
+98  sfc.dll                C:\Windows\SYSTEM32\sfc.dll                  Windows File Protection                      12

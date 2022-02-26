@@ -66,17 +66,21 @@ namespace AppInfo_x64
                     Console.WriteLine($"\nПроцесс {proc.ProcessName} стартовал {proc.StartTime}");
                     sw.WriteLine($"\nПроцесс {proc.ProcessName} стартовал {proc.StartTime}");           // Запись в файл
 
-                    Console.WriteLine($"Максимальный объем потребляемой памяти в момент времени: {proc.PeakWorkingSet64 / 1_000_000} Мбайт");
-                    sw.WriteLine($"Максимальный объем потребляемой памяти в момент времени: {proc.PeakWorkingSet64 / 1_000_000} Мбайт");
-
-                    ProcessModuleCollection modules = proc.Modules;
+                    Console.WriteLine($"Максимальный объем потребляемой памяти в момент времени: {(proc.PeakWorkingSet64 / 1024) / 1024} Мбайт");   // байт -> килобайт -> мегабайт
+                    sw.WriteLine($"Максимальный объем потребляемой памяти в момент времени: {(proc.PeakWorkingSet64 / 1024) / 1024} Мбайт");
+                                                                                              
+                    // C помощью LINQ cортируем по убыванию исходя из потребляемых ресурсов модулей 
+                    var modules = from ProcessModule module in proc.Modules
+                                       orderby module.ModuleMemorySize descending
+                                       select module;
 
                     Console.WriteLine("Использует следующие ресурсы(модули):\n");
                     sw.WriteLine("Использует следующие ресурсы(модули):\n");
 
-                    Console.WriteLine("№  Модуль " + "Путь".PadLeft(30));
-                    sw.WriteLine("№  Модуль " + "Путь".PadLeft(30));
+                    Console.WriteLine("№  Модуль" + "Путь".PadLeft(22) + "Описание".PadLeft(49) +"Память KB".PadLeft(46));
+                    sw.WriteLine("№  Модуль" + "Путь".PadLeft(22) + "Описание".PadLeft(49) + "Память KB".PadLeft(46));
                     int count = 0;
+                    int memory = 0;
                     foreach (ProcessModule pm in modules)
                     {
                         count++;
@@ -90,13 +94,16 @@ namespace AppInfo_x64
                             is32Bit = true;
                             break;
                         }
-                        Console.WriteLine($"{count} {pm.ModuleName}".PadRight(27) + $"{pm.FileName}".PadRight(45) +
-                                    $"{pm.FileVersionInfo.FileDescription}");
-                        sw.WriteLine($"{count} {pm.ModuleName}".PadRight(27) + $"{pm.FileName}".PadRight(45) +
-                                    $"{pm.FileVersionInfo.FileDescription}");
+                        Console.WriteLine($"{count}  {pm.ModuleName}".PadRight(27) + $"{pm.FileName}".PadRight(45) +
+                                    $"{pm.FileVersionInfo.FileDescription}".PadRight(45) + $"{pm.ModuleMemorySize / 1024}"); // получим килобайты
+                        sw.WriteLine($"{count}  {pm.ModuleName}".PadRight(27) + $"{pm.FileName}".PadRight(45) +
+                                    $"{pm.FileVersionInfo.FileDescription}".PadRight(45) + $"{pm.ModuleMemorySize / 1024}");
+                        memory += pm.ModuleMemorySize / 1024;   // подсчитываем количество сумарной потребляемой памяти всеми модулями
                         if (is32Bit)
                             return;
                     }
+                    Console.WriteLine("\nВсего памяти используется суммарно всеми модулями: {0} KB", memory);
+                    sw.WriteLine("\nВсего памяти используется суммарно всеми модулями: {0} KB", memory);
                 }            
                 Console.WriteLine();
             }
