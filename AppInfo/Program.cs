@@ -14,10 +14,8 @@ namespace AppInfo_x64
     class Program
     {      
         static void Main(string[] args)
-        {
-            
-            Console.WindowWidth = 160;
-            Console.WriteLine(Console.BufferWidth);
+        {            
+            Console.WindowWidth = 165;            
             Console.WriteLine("\t****** Добро пожаловать в приложение AppInfo_х64! ******\n");
             Console.WriteLine("Приложение AppInfo отображает различные данные о интересующем x64 процессе");
             do
@@ -75,7 +73,7 @@ namespace AppInfo_x64
                     var modules = from ProcessModule module in proc.Modules
                                        orderby module.ModuleMemorySize descending
                                        select module;
-
+                    
                     Console.WriteLine("Использует следующие ресурсы(модули):\n");
                     sw.WriteLine("Использует следующие ресурсы(модули):\n");
 
