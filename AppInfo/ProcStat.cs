@@ -55,12 +55,10 @@ namespace AppInfo
             {
                 for (int j = 0; j < modules.Length; j++)
                 {
-                    if (modules[j].MemorySize > maxvalue)
-                        maxvalue = modules[j].MemorySize;
+                    if (modules[j+1].MemorySize > maxvalue)
+                        maxvalue = modules[j=1].MemorySize;
                 }
-                sortedArr[i] = from m in modules
-                               where m.MemorySize == maxvalue
-                               select m;
+                //sortedArr[i] =  до лучших времен
                                
             }
             return sortedArr;
